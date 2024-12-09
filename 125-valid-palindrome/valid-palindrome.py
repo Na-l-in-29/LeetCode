@@ -5,4 +5,4 @@ class Solution:
             if l.isalnum():
                 conv += l
         res = conv.lower()
-        return conv.lower()[::-1]  == res
+        return res[::-1]  == res
